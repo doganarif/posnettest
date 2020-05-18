@@ -18,9 +18,7 @@ const data = `<posnetRequest>
 </posnetRequest>`;
 
 axios
-  .post(
-    `https://setmpos.ykb.com/3DSWebService/YKBPaymentService?xmldata=${data}`
-  )
+  .post(`https://setmpos.ykb.com/PosnetWebService/XML?xmldata=${data}`)
   .then(res => {
     console.log(res.data);
   });
