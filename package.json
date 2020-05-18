@@ -1,0 +1,21 @@
+{
+  "name": "xmltest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "logrocket": "^1.0.7",
+    "request": "^2.88.2",
+    "superagent": "^5.2.2",
+    "utf8": "^3.0.0",
+    "xml-parse-from-string": "^1.0.1",
+    "xml2js": "^0.4.23"
+  }
+}
